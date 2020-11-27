@@ -13,9 +13,10 @@ TeamWork is a project I did that is simulating the work that Teamviewer does.\
 The idea is that one computer controls an other computer and allows to work together.
 
 ### Motion Profiling Project
-This project is about making a robot drive in an accurate path in maximum speed and still be able to maintain accuracy.\
+This project is about making a robot drive in an accurate path in maximum speed and still be able to maintain accuracy.
+Part of this project was developing a way of calculating this path in a way that can be controlled and feedbacked with the robots sensors.\
 I did this project for the team in which I was participating in the First FRC compatition.\
-This project was a big success in that time and my team cept using it til this day.\
+This project was a big success and my team still uses it til this day.\
 \
 I encourage you to view those files in the project:
 * ~/MotionProfilingGenerator/Improved_MP/MP_Path.java
