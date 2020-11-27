@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\states_headers">
+      <UniqueIdentifier>{77cc7f34-6f34-48ff-82d0-c3a126d77a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states_cpp">
+      <UniqueIdentifier>{c30799ec-c4e3-4fc3-8e9d-108836910dfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GettingControlledWait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GetControlledState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SignState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BeControlledState.h">
+      <Filter>Header Files\states_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GettingControlledWait.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GetControlledState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SignState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BeControlledState.cpp">
+      <Filter>Source Files\states_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

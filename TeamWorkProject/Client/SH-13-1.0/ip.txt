@@ -1,0 +1,78 @@
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 14:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Wi-Fi 3:
+
+   Connection-specific DNS Suffix  . : home
+   Link-local IPv6 Address . . . . . : fe80::fce0:44c:191c:7eab%23
+   IPv4 Address. . . . . . . . . . . : 10.0.0.12
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.0.138
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::786d:dfae:b24c:5be9%34
+   IPv4 Address. . . . . . . . . . . : 11.32.11.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::bccf:bf75:7723:b443%51
+   IPv4 Address. . . . . . . . . . . : 192.168.21.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::49cc:2213:da10:3a76%52
+   IPv4 Address. . . . . . . . . . . : 192.168.107.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Tunnel adapter isatap.home:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : home
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . : 
+   IPv6 Address. . . . . . . . . . . : 2001:0:d597:2173:283f:3110:f5ff:fff3
+   Link-local IPv6 Address . . . . . : fe80::283f:3110:f5ff:fff3%16
+   Default Gateway . . . . . . . . . : 
+
+Tunnel adapter 6TO4 Adapter:
+
+   Connection-specific DNS Suffix  . : 
+   IPv6 Address. . . . . . . . . . . : 2002:b20:b01::b20:b01
+   Default Gateway . . . . . . . . . : 
+
+Tunnel adapter isatap.{F711B079-B2BB-45C3-AD9E-51EFC81F44AB}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.{A08E4055-83FD-4C54-A107-AA0678174BDF}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.{C83D9785-1CB9-4F43-9E33-F8AD913639A4}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
