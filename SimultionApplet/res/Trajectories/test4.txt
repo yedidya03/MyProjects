@@ -1,0 +1,5 @@
+# put 'start:' and then the starting point in this format : x,y,angle. (example - start:1.5,0,0)
+start:4,6,0
+# put the moves as they were written to the generator
+addStraight(-3, 0.5);
+addRadius(0, 900, 0);
