@@ -160,11 +160,3 @@ int main() {
 
 	std::this_thread::sleep_for(std::chrono::milliseconds(1500));
 }
-
-/**
-
-Problems :
-- displays only 15 rows.
-- need to figure out how to set windows size
-
-*/
