@@ -39,7 +39,7 @@ $ ./Snake
 
 ### Sudoku Solver
 This project is a simple and short python script that has a grid representing a sudoku board and solves it. 
-If there's more the one optional solution the script will print all of them.\
+If there's more then one solution, the script will present all posible solutions.\
 \
 Running this script simply by typing in the command line:
 ```
