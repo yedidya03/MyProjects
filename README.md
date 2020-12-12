@@ -17,7 +17,7 @@ In my method, the robot itself plans the route, which enables it to change plans
 
 This project was used in practice in several FIRST FRC international robotics compentitions (in fact, this code is still used by the robotics team to this day).\
 \
-I recommend you to check out the following files:
+I recommend viewing the following files:
 * ~/MotionProfilingGenerator/Improved_MP/MP_Path.java
 * ~/MotionProfilingGenerator/Improved_MP/MP_Radius.java
 * ~/MotionProfilingGenerator/MP_ImprovedCommands/MP_AutoGenerator.java
