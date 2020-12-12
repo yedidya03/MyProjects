@@ -23,7 +23,7 @@ I recommend viewing the following files:
 * ~/MotionProfilingGenerator/MP_ImprovedCommands/MP_AutoGenerator.java
 * ~/MotionProfilingGenerator/MP_ImprovedCommands/MP_DrivePathFollower.java
 
-For runnign the project you can open it as an eclips project and run it (the GUI is implemented with java Applet).
+For runnign the project you can open it as an ```eclips``` project and run it (the GUI is implemented with java Applet).
 
 ### TeamWork Project
 The TeamWork project simulates the work that [TeamViewer](https://www.teamviewer.com/en/) does.\
