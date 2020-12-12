@@ -13,11 +13,11 @@ The TeamWork project simulates the work that [TeamViewer](https://www.teamviewer
 It enables one computer to view the screen of another computer, and lets it control its mouse and keyboad. This way two people can work together on two different computers as if they are sitting together.
 
 ### Motion Profiling Project
+The Motion Profiling project plans a route for tank drivetrain robots, and generates java-code for the robot to execute.
+The project plans the route to ease accurate motion of the robot along the route with minimal deviation errors. 
+
 This project is about making a robot drive in an accurate path in maximum speed, and still be able to maintain accuracy.
 Part of this project was developing a way of calculating this path in a way that can be controlled and feedbacked with the robot's sensors.\
-
-The Motion Profiling projects plans a route for robots that uses tank drivetrain. 
-
 I did this project for the team in which I was participating in the First FRC compatition.\
 This project was a big success and my team still uses it til this day.\
 \
