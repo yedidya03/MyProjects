@@ -16,7 +16,9 @@ It enables one computer to view the screen of another computer, and lets it cont
 The Motion Profiling project plans a route for a tank drivetrain robots, and generates java-code for the robot to execute.
 The project plans the route to ease accurate motion of the robot along the route with minimal deviation errors. 
 
-In this project I developed a way of planning the route (based on work of other people in the field), .\
+In this project I developed a way of planning the route to meet the objectives of accurate motion and minimal deviation (based on work of other people in the field).
+In my method, the robot itself plans the route, which enables it to change plans in mid course (the common methods have the entire route planned and loaded into the robot before starting).
+
 The develop of this project was for the team I was part of in the First FRC competition.\
 This project was a big success and my team still uses it til this day.\
 \
