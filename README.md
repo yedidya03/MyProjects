@@ -9,8 +9,8 @@ You can find a short explenation about them in this ```README.md``` file. You ca
 For more information about the projects you may contact me using the email adress mentioned above.
 
 ### TeamWork Project
-TeamWork is a project I did that simulates the work that Teamviewer does.\
-The project enables one computer to view the screen of another computer and lets it control his mouse and keyboad. By that two people can work together on two different computers as if they are sitting together. 
+The TeamWork project simulates the work that Teamviewer does.\
+It enables one computer to view the screen of another computer, and lets it control its mouse and keyboad. By that two people can work together on two different computers as if they are sitting together. 
 
 ### Motion Profiling Project
 This project is about making a robot drive in an accurate path in maximum speed and still be able to maintain accuracy.
