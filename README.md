@@ -6,7 +6,7 @@ Email : yedidya03@gmail.com
 ### Summary
 In this reposetory I gathered a few projects I did over the years. 
 You can find a short explenation about them in this ```README.md``` file. You can find the raw code in directories above.
-For more information about the projects you may contact with the email adress that is menstioned before.
+For more information about the projects you may contact me using the email adress menstioned above.
 
 ### TeamWork Project
 TeamWork is a project I did that is simulating the work that Teamviewer does.\
