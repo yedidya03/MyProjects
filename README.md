@@ -30,7 +30,7 @@ I encourage you to view those files in the project:
 For runnign the project you can open it as an eclips project and run it (the GUI is implemented with java Applet).
 
 ### Games
-In the games directory you will find snake and tetis implemented in c++.
+In the games directory you will find snake and tetris implemented in c++.
 The games have a console based GUI but the game logic and flow are good and intuitive.
 You can try to play the games simply by compiling them with MinGW or any other c++ compiler and run.\
 \
