@@ -27,7 +27,7 @@ I encourage you to view those files in the project:
 * ~/MotionProfilingGenerator/MP_ImprovedCommands/MP_AutoGenerator.java
 * ~/MotionProfilingGenerator/MP_ImprovedCommands/MP_DrivePathFollower.java
 
-For runnign the project you can open it as an ```eclips``` project and run it (GUI is implemented with java Apllet).
+For runnign the project you can open it as an eclips project and run it (the GUI is implemented with java Applet).
 
 ### Games
 In the games directory you will find snake and tetis implemented in c++.
