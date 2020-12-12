@@ -9,12 +9,15 @@ You can find a short explenation about them in this ```README.md``` file. You ca
 For more information about the projects you may contact me using the email adress mentioned above.
 
 ### TeamWork Project
-The TeamWork project simulates the work that Teamviewer does.\
-It enables one computer to view the screen of another computer, and lets it control its mouse and keyboad. By that two people can work together on two different computers as if they are sitting together. 
+The TeamWork project simulates the work that [TeamViewer](https://www.teamviewer.com/en/) does.\
+It enables one computer to view the screen of another computer, and lets it control its mouse and keyboad. This way two people can work together on two different computers as if they are sitting together.
 
 ### Motion Profiling Project
-This project is about making a robot drive in an accurate path in maximum speed and still be able to maintain accuracy.
-Part of this project was developing a way of calculating this path in a way that can be controlled and feedbacked with the robots sensors.\
+This project is about making a robot drive in an accurate path in maximum speed, and still be able to maintain accuracy.
+Part of this project was developing a way of calculating this path in a way that can be controlled and feedbacked with the robot's sensors.\
+
+The Motion Profiling projects plans a route for robots that uses tank drivetrain. 
+
 I did this project for the team in which I was participating in the First FRC compatition.\
 This project was a big success and my team still uses it til this day.\
 \
