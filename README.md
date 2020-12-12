@@ -19,7 +19,7 @@ The project plans the route to ease accurate motion of the robot along the route
 In this project I developed a way of planning the route to meet the objectives of accurate motion and minimal deviation (based on work of other people in the field).
 In my method, the robot itself plans the route, which enables it to change plans in mid course (the common methods have the entire route planned and loaded into the robot before starting).
 
-This project was used in practice in several FIRST FRC international robotics compentitions (in fact, this code is still used by the robotics team to this day).
+This project was used in practice in several FIRST FRC international robotics compentitions (in fact, this code is still used by the robotics team to this day).\
 \
 I encourage you to view those files in the project:
 * ~/MotionProfilingGenerator/Improved_MP/MP_Path.java
