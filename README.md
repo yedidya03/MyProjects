@@ -39,6 +39,14 @@ For example:
 $ g++ ./Snake.cpp -o Snake
 $ ./Snake
 ```
+### Nonogram Solver
+This project is a simple and short python script that has a grid representing a N bonogram board and solves it. 
+If there's more then one solution, the script will present all posible solutions.\
+\
+Running this script simply by typing in the command line:
+```
+$ python ./Nonogram_Solver.py
+```
 
 ### Sudoku Solver
 This project is a simple and short python script that has a grid representing a sudoku board and solves it. 
