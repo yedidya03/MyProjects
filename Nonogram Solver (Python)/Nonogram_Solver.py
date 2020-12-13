@@ -1,73 +1,73 @@
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image
 
-size = 20
+width = 30
+height = 20
 
-upNumbers = [[9],
-             [6,3],
-             [2,1,3],
-             [2,1,3],
-             [2,2,2],
-             [1,1,3],
-             [1,5,3],
-             [2,3,1,3],
-             [1,12],
-             [2,11],
-             [1,4,1,5],
-             [2,4,1,4],
-             [1,2,9],
-             [1,3,4,3],
-             [2,1,3,5],
-             [1,2,4,3],
-             [1,1,6],
-             [1,2,3],
-             [2,1,3],
-             [12]]
+upNumbers = [[1],
+             [1],
+             [2],
+             [4],
+             [7],
+             [9],
+             [2,8],
+             [1,8],
+             [8],
+             [1,9],
+             [2,7],
+             [3,4],
+             [6,4],
+             [8,5],
+             [1,11],
+             [1,7],
+             [8],
+             [1,4,8],
+             [6,8],
+             [4,7],
+             [2,4],
+             [1,4],
+             [5],
+             [1,4],
+             [1,5],
+             [7],
+             [5],
+             [3],
+             [1],
+             [1]]
 
-leftNumbers = [[2],
-               [6],
-               [4,1],
+leftNumbers = [[8,7,5,7],
+               [5,4,3,3],
+               [3,3,2,3],
+               [4,3,2,2],
+               [3,3,2,2],
+               [3,4,2,2],
+               [4,5,2],
+               [3,5,1],
+               [4,3,2],
+               [3,4,2],
+               [4,4,2],
+               [3,6,2],
+               [3,2,3,1],
+               [4,3,4,2],
+               [3,2,3,2],
+               [6,5],
+               [4,5],
                [3,3],
-               [3,3,1],
-               [2,3,1],
-               [2,2,1],
-               [2,5,1],
-               [2,4,2,1],
-               [2,11,1],
-               [1,10,2,2],
-               [2,2,4,2,5],
-               [3,1,7,3],
-               [2,1,2,1,4],
-               [2,10],
-               [1,8],
-               [1,7],
-               [4,8],
-               [11],
-               [9]]
-'''
-upNumbers = [[1,2],
-             [3],
-             [2,1],
-             [3],
-             [1,2]]
-
-leftNumbers = [[3],
-               [5],
-               [1,1],
-               [1,1,1],
+               [3,3],
                [1,1]]
-'''
-grid = [[-1 for x in range(size)] for y in range(size)]
+
+grid = [[-1 for x in range(width)] for y in range(height)]
 
 def checkLine(line, numbers, place) :
     line = list(line)
     numbers = list(numbers)
 
+    # If the numbers list is empty it means that the line should be empty too
     if numbers == [] :
-        print ("false 1.0 : Not all are empty")
         return all(dot == 0 for dot in line)
 
-    if place > (size - 1) : place = (size - 1)
+    # Making sure that place is'nt grater then the length of line
+    if place > (len(line) - 1) : place = (len(line) - 1)
 
     currNumberIndex = 0
     currNumber = numbers[currNumberIndex]
@@ -75,21 +75,20 @@ def checkLine(line, numbers, place) :
 
     for i in range(place + 1) :
         if duringNumber and line[i] == 0:
-            #print(line, place)
-            #print ("False 2.0 - during number but = 0")
-            return False
+            return False                # The block did'nt end but there is 0 in the middle
 
+        # Starting a new block
         if (not duringNumber) and (line[i] != 0):
             duringNumber = True
 
+        # Every dot we decrease currNumber by 1 to track when it should be ending
         if duringNumber:
             currNumber -= 1
 
+        # When the block ends
         if currNumber <= 0 :
             if i < place and line[i + 1] != 0 :
-                #print(line, place)
-                #print ("False 3.0 - there is no 0 after the block")
-                return False
+                return False            # The block ended but there is no 0 at the end
 
             duringNumber = False
             currNumberIndex += 1
@@ -101,23 +100,21 @@ def checkLine(line, numbers, place) :
             sum += 1
             sum += numbers[j]
 
-        if (size - i - 1) < sum :
-            #print(line, place)
-            #print ("False 5.0 - remaining wont fit inside")
-            return False
+        if (len(line) - i - 1) < sum :
+            return False                # The remaining of the line is too short for the numbers following
 
     return True
 
 def isDotPosibble(x, y) :
     if not checkLine(grid[y], leftNumbers[y], x): return False
 
-    if not checkLine((grid[i][x] for i in range(size)), upNumbers[x], y): return False
+    if not checkLine((grid[i][x] for i in range(height)), upNumbers[x], y): return False
 
     return True
 
 def solve() :
-    for y in range(size):
-        for x in range(size):
+    for y in range(height):
+        for x in range(width):
             if grid[y][x] == -1 :
                 for i in range(2):
                     grid[y][x] = i
@@ -130,20 +127,15 @@ def solve() :
     print(np.matrix(grid), "\n")
 
 def drawImage () :
-    img = Image.new("RGB", (size, size), (255, 255, 255))
+    img = Image.new("RGB", (width, height), (255, 255, 255))
     pixelMap = img.load()
 
-    for y in range(size):
-        for x in range (size):
+    for y in range(height):
+        for x in range (width):
             if grid[y][x] == 1 :
-                pixelMap[y, x] = (0,0,0)
+                pixelMap[x, y] = (0,0,0)
 
     img.show()
 
 if __name__ == "__main__" :
-    if (len(upNumbers) == size and len(leftNumbers) == size) :
-        solve()
-
-    else :
-        print ("Numbers are not in the currect size")
-
+    solve()
