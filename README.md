@@ -46,7 +46,7 @@ Running this script simply by typing in the command line:
 ```
 $ python ./Nonogram_Solver.py
 ```
-(The example in the code is from [Wikipedia](https://en.wikipedia.org/wiki/Nonogram#/media/File:Nonogram_wiki.svg))
+(The example in the code is from [Wikipedia](https://en.wikipedia.org/wiki/Nonogram))
 
 ### Sudoku Solver
 This project is very similar to the Nonogram Solver project. It also a logic puzzle just this time it is a Sudoku insted of Nonogram.\
