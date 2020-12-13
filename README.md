@@ -40,7 +40,7 @@ $ g++ ./Snake.cpp -o Snake
 $ ./Snake
 ```
 ### Nonogram Solver
-This project is a simple and short python script that has a grid representing a N bonogram board and solves it. 
+This project is a simple and short python script that has a grid representing a Nonogram board and solves it. The program uses backtracking algorithm to find the posible solutions.
 If there's more then one solution, the script will present all posible solutions.\
 \
 Running this script simply by typing in the command line:
@@ -49,9 +49,7 @@ $ python ./Nonogram_Solver.py
 ```
 
 ### Sudoku Solver
-This project is a simple and short python script that has a grid representing a sudoku board and solves it. 
-If there's more then one solution, the script will present all posible solutions.\
-\
+This project is very similar to the Nonogram Solver project. It also a logic puzzle just this time it is a Sudoku insted of Nonogram.\
 Running this script simply by typing in the command line:
 ```
 $ python ./Sudoku_Solver.py
